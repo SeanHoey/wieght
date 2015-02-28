@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green" >
+    
+<TextView
+        android:id="@+id/textExplained1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ex_workoutsexplained"
+        android:textSize="30sp"
+        android:textStyle="bold"
+         />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="@string/upper_body"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="@string/core_workouts"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="@string/lower_body"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

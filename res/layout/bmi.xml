@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Author: Mark Lee x11435992-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/green" >
+    
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bmi"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+<EditText 
+    	android:id="@+id/enterHeight"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Height in Meters."
+        android:inputType="numberDecimal"
+    />
+<EditText 
+    	android:id="@+id/enterWeight"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your current Weight in Kilograms."
+        android:inputType="numberDecimal"
+    />
+<Button
+        android:id="@+id/bmiButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:text="@string/calculate"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+<EditText 
+    	android:id="@+id/bmiCalculated"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

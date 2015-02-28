@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg" >
+ 
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text="Log In" 
+         android:onClick="signIn"/>
+ 
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up Here" />
+ 
+</LinearLayout>

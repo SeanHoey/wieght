@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DietActivity" 
+    android:background="@drawable/green">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/diet"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black"
+        android:textSize="@dimen/heading"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/diet_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black" />
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <Button
+        android:id="@+id/boven"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/oven" />
+
+    <Button
+        android:id="@+id/bsummer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       	android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/summer" />
+
+    <Button
+        android:id="@+id/blow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/low" />
+
+    <Button
+        android:id="@+id/bsoup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/soup" />
+    
+    <Button
+        android:id="@+id/bbake"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/bake" />
+    
+    <Button
+        android:id="@+id/bmeatball"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/meatball" />
+    
+    <Button
+        android:id="@+id/bcake"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/cake" />
+       <Button
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/back" />
+    </LinearLayout>
+    </ScrollView>
+
+    
+
+</RelativeLayout>

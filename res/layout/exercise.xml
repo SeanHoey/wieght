@@ -1,0 +1,55 @@
+<!--Author: Mark Lee x11435992-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/exercise"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:context="@string/exercise" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:text="@string/ex_workout_routines"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="49dp"
+        android:text="@string/ex_workoutsexplained"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:gravity="center"
+        android:text="@string/bmi"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
